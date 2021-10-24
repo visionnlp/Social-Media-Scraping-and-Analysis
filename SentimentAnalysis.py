@@ -2,6 +2,7 @@
 #.Sentiment Analysis
 from textblob import TextBlob
 
+# sentiment analysis
 class SentimentAnalysis:
     def __init__(self):
         print("Initiating SentimentAnalysis Class")
