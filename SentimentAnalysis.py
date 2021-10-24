@@ -8,9 +8,9 @@ class SentimentAnalysis:
         print("Initiating SentimentAnalysis Class")
 
     def findsentiment(self,val):
-        if val<=0.1 and val>-0.1:
-            return 'Neutral'
-        elif val>0.1:
+#         if val<=0.1 and val>-0.1:
+#             return 'Neutral'
+        if val>0.1:
             return 'Positive'
         else:
             return 'Negative'
