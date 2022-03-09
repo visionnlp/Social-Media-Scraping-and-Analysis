@@ -1,5 +1,5 @@
 # coding: utf-8
-#.Sentiment Analysis
+# Sentiment Analysis
 from textblob import TextBlob
 
 # sentiment analysis
